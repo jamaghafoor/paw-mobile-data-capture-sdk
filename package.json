@@ -1,0 +1,9 @@
+{
+  "name": "@paw/data-capture",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Native iOS and Android capture SDKs with a local backend contract reference",
+  "scripts": { "start": "node server/dev.js", "test": "node --test", "check": "node --check server/api.js && node --check server/dev.js" },
+  "engines": { "node": ">=20" }
+}
